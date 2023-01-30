@@ -1,0 +1,41 @@
+<h1>Add New  Record</h1><br><br>
+<div class="add-user">
+{{#if msg}}
+<div class="alert">{{msg}} </div>
+{{/if}}
+
+<form method="post" action="/adduser" >
+<div class="form-group">
+    <lable for="firstname">FirstName</lable>
+    <input type="text" name="firstname" required>
+</div><br><br>
+<div class="form-group">
+    <lable for="lastname">LastName</lable>
+    <input type="text" name="lastname" required>
+</div><br><br>
+<div class="form-group">
+    <lable for="email">Email</lable>
+    <input type="email" name="email" required>
+</div><br><br>
+<div class="form-group">
+    <lable for="dob">DOB</lable>
+    <input type="date" name="dob" required>
+</div><br><br>
+<div class="form-group">
+    <lable for="education">Education</lable>
+    <input type="text" name="education" required>
+</div><br><br>
+<div class="form-group">
+    <lable for="about">About</lable>
+    <input type="text" name="about" required>
+</div><br><br>
+
+
+<div class="form-group">
+   <button type="submit">Save Details</button>
+   <button><a href="/">View All</a></button>
+</div>
+
+
+</form>
+</div>

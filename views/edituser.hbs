@@ -1,0 +1,47 @@
+
+<h1>Edit New  Record</h1><br><br>
+<div class="edit-user">
+{{#if msg}}
+<div class="alert">{{msg}} </div>
+{{/if}}
+{{#each rows}}
+
+<form  method="post" action="/edituser/{{this.ID}}">
+<div class="form-group">
+    <lable for="firstname">FirstName</lable>
+    <input type="text" name="firstname" value="{{this.FirstName}}" required>
+</div><br><br>
+<div class="form-group">
+    <lable for="lastname">LastName</lable>
+    <input type="text" name="lastname" value="{{this.LastName}}" required>
+</div><br><br>
+<div class="form-group">
+    <lable for="email">Email</lable>
+    <input type="email" name="email"value="{{this.Email}}" required>
+</div><br><br>
+<div class="form-group">
+    <lable for="dob">DOB</lable>
+    <input type="date" name="dob" value="{{this.DOB}}" required>
+</div><br><br>
+<div class="form-group">
+    <lable for="education">Education</lable>
+    <input type="text" name="education" value="{{this.Education}}" required>
+</div><br><br>
+<div class="form-group">
+    <lable for="about">About</lable>
+    <input type="text" name="about" value="{{this.About}}" required>
+</div><br><br>
+
+
+<div class="form-group">
+   <button type="submit" >Save Details</button>
+   <button><a href="/">View All</a></button>
+</div>
+
+</form>
+
+{{/each}}
+
+</div>
+
+

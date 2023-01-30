@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  font-family: 'Roboto',sans-serif;
+}
+
+
+
+.table-items{
+    
+        
+        margin-right:auto;
+        margin-left:auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;      
+             
+}
+
+
+table{
+    width:85%;
+}
+
+table tr  {
+    border: 2px solid gray;   
+    justify-items: center;
+    text-align: center;
+ 
+}
+
+
+  
+
+
+table thead tr td{
+   font-weight: 400;
+ 	background-color:#000;
+    color:  white;
+}
+  td{
+    padding: 17px;
+    font-size: 20px;
+    font-weight: 200;
+    color:  rgb(141, 139, 139);
+    
+	}
+
+   
+
+   .addbtn{
+  float: right;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  height: 32px;
+  width: 110px;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 55px;
+
+  
+
+  }
+
+  .edit,.delete{
+    text-decoration: none;
+   color:  rgb(141, 139, 139);
+  }
+
+h3{
+ 
+  position: absolute;
+  left: 42%; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.far , .fas{
+  color: rgb(141, 139, 139) ;
+}
+h1{
+ 
+   position: absolute;
+  left: 42%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.edit-user{
+ 
+  position: absolute;
+  left: 42%;
+}
+
+.form-group label,.form-group input{
+  display: block;
+  border-color: #000;
+}
+
+
+button{
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  height: 32px;
+  width: 110px;
+  text-align: center;
+  font-weight: bold;
+  
+ 
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+  
+  
+}
+
+.form-group button{
+ padding: 4px;
+ 
+}
+
+
+.add-user{
+  
+  position: absolute;
+  left: 42%;
+}
